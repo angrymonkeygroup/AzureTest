@@ -522,11 +522,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\USER\\source\\repos\\AzureTest\\AzureTest\\AzureTest.csproj",
+      "projectUniqueName": "C:\\Users\\USER\\source\\repos\\AzureTest\\AzureTest.csproj",
       "projectName": "AzureTest",
-      "projectPath": "C:\\Users\\USER\\source\\repos\\AzureTest\\AzureTest\\AzureTest.csproj",
+      "projectPath": "C:\\Users\\USER\\source\\repos\\AzureTest\\AzureTest.csproj",
       "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\USER\\source\\repos\\AzureTest\\AzureTest\\obj\\",
+      "outputPath": "C:\\Users\\USER\\source\\repos\\AzureTest\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",

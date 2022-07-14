@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "cEKgCUiH97kGozRbmx8QIV8DKdOFL+P3W+N8v/eGSxPZXr2S/CTKzaUuFjapK3vJn7r7cykUUziFHjJNbhif4A==",
+  "dgSpecHash": "l7qPyMNgbRUtDWk9UWM9YK9Vq0mHnxbPg6vFA4bdzT5zcXZE2yqmVQqs1IyV0Z96gu4BRqbyNFSEgXfb02pgQw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\USER\\source\\repos\\AzureTest\\AzureTest\\AzureTest.csproj",
+  "projectFilePath": "C:\\Users\\USER\\source\\repos\\AzureTest\\AzureTest.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\USER\\.nuget\\packages\\fluentassertions\\6.7.0\\fluentassertions.6.7.0.nupkg.sha512",
     "C:\\Users\\USER\\.nuget\\packages\\microsoft.aspnetcore.authentication.openidconnect\\6.0.7\\microsoft.aspnetcore.authentication.openidconnect.6.0.7.nupkg.sha512",
