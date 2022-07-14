@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "f+nIakbhLN5eJ8TRH1cxYOJo1RtqgsAZgnCPtQ9PTZMghe/FJOuLH24+gzef9O161zCZ6HvUxRl6/xXWoYLHrQ==",
+  "dgSpecHash": "br4Je1DCd8HdRu/FJq5e8Gm7+UbxvR3egM/lEWWdCfvjeYHLnmeDczyp1NLQmhHjWLa0MJQn/j4Vt9cFCCvvUw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Wissam FARHAT\\source\\repos\\angrymonkeygroup\\AzureTest\\AzureTest.csproj",
+  "projectFilePath": "C:\\Users\\Wissam FARHAT\\source\\repos\\AzureTest2\\AzureTest.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Wissam FARHAT\\.nuget\\packages\\azure.core\\1.6.0\\azure.core.1.6.0.nupkg.sha512",
     "C:\\Users\\Wissam FARHAT\\.nuget\\packages\\azure.identity\\1.3.0\\azure.identity.1.3.0.nupkg.sha512",

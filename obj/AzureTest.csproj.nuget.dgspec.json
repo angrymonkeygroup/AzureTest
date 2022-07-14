@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Wissam FARHAT\\source\\repos\\angrymonkeygroup\\AzureTest\\AzureTest.csproj": {}
+    "C:\\Users\\Wissam FARHAT\\source\\repos\\AzureTest2\\AzureTest.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Wissam FARHAT\\source\\repos\\angrymonkeygroup\\AzureTest\\AzureTest.csproj": {
+    "C:\\Users\\Wissam FARHAT\\source\\repos\\AzureTest2\\AzureTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Wissam FARHAT\\source\\repos\\angrymonkeygroup\\AzureTest\\AzureTest.csproj",
+        "projectUniqueName": "C:\\Users\\Wissam FARHAT\\source\\repos\\AzureTest2\\AzureTest.csproj",
         "projectName": "AzureTest",
-        "projectPath": "C:\\Users\\Wissam FARHAT\\source\\repos\\angrymonkeygroup\\AzureTest\\AzureTest.csproj",
+        "projectPath": "C:\\Users\\Wissam FARHAT\\source\\repos\\AzureTest2\\AzureTest.csproj",
         "packagesPath": "C:\\Users\\Wissam FARHAT\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Wissam FARHAT\\source\\repos\\angrymonkeygroup\\AzureTest\\obj\\",
+        "outputPath": "C:\\Users\\Wissam FARHAT\\source\\repos\\AzureTest2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Wissam FARHAT\\AppData\\Roaming\\NuGet\\NuGet.Config",
