@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\USER\\source\\repos\\AzureTest\\AzureTest.csproj": {}
+    "C:\\Users\\Wissam FARHAT\\source\\repos\\angrymonkeygroup\\AzureTest\\AzureTest.csproj": {}
   },
   "projects": {
-    "C:\\Users\\USER\\source\\repos\\AzureTest\\AzureTest.csproj": {
+    "C:\\Users\\Wissam FARHAT\\source\\repos\\angrymonkeygroup\\AzureTest\\AzureTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\USER\\source\\repos\\AzureTest\\AzureTest.csproj",
+        "projectUniqueName": "C:\\Users\\Wissam FARHAT\\source\\repos\\angrymonkeygroup\\AzureTest\\AzureTest.csproj",
         "projectName": "AzureTest",
-        "projectPath": "C:\\Users\\USER\\source\\repos\\AzureTest\\AzureTest.csproj",
-        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\USER\\source\\repos\\AzureTest\\obj\\",
+        "projectPath": "C:\\Users\\Wissam FARHAT\\source\\repos\\angrymonkeygroup\\AzureTest\\AzureTest.csproj",
+        "packagesPath": "C:\\Users\\Wissam FARHAT\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Wissam FARHAT\\source\\repos\\angrymonkeygroup\\AzureTest\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Wissam FARHAT\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,7 +22,8 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Users\\USER\\Angry Monkey\\Lebanon - Documents\\General\\Nuget\\Angry Monkey": {},
+          "D:\\work_1\\Angry Monkey\\Lebanon - Documents\\General\\Nuget\\Angry Monkey": {},
+          "D:\\work_1\\Angry Monkey\\Lebanon - Documents\\General\\Nuget\\Coverbox": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -45,9 +46,21 @@
               "target": "Package",
               "version": "[6.7.0, )"
             },
+            "Microsoft.AspNetCore.Authentication.AzureADB2C.UI": {
+              "target": "Package",
+              "version": "[6.0.7, )"
+            },
             "Microsoft.AspNetCore.Authentication.OpenIdConnect": {
               "target": "Package",
               "version": "[6.0.7, )"
+            },
+            "Microsoft.Identity.Web": {
+              "target": "Package",
+              "version": "[1.24.1, )"
+            },
+            "Microsoft.Identity.Web.UI": {
+              "target": "Package",
+              "version": "[1.24.1, )"
             }
           },
           "imports": [
