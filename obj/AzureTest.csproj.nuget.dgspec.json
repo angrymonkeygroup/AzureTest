@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Wissam FARHAT\\source\\repos\\AzureTest2\\AzureTest.csproj": {}
+    "C:\\Users\\Hiba Al Ghosh\\Source\\Repos\\AzureTest2\\AzureTest.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Wissam FARHAT\\source\\repos\\AzureTest2\\AzureTest.csproj": {
+    "C:\\Users\\Hiba Al Ghosh\\Source\\Repos\\AzureTest2\\AzureTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Wissam FARHAT\\source\\repos\\AzureTest2\\AzureTest.csproj",
+        "projectUniqueName": "C:\\Users\\Hiba Al Ghosh\\Source\\Repos\\AzureTest2\\AzureTest.csproj",
         "projectName": "AzureTest",
-        "projectPath": "C:\\Users\\Wissam FARHAT\\source\\repos\\AzureTest2\\AzureTest.csproj",
-        "packagesPath": "C:\\Users\\Wissam FARHAT\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Wissam FARHAT\\source\\repos\\AzureTest2\\obj\\",
+        "projectPath": "C:\\Users\\Hiba Al Ghosh\\Source\\Repos\\AzureTest2\\AzureTest.csproj",
+        "packagesPath": "C:\\Users\\Hiba Al Ghosh\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Hiba Al Ghosh\\Source\\Repos\\AzureTest2\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Wissam FARHAT\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Hiba Al Ghosh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,8 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "D:\\work_1\\Angry Monkey\\Lebanon - Documents\\General\\Nuget\\Angry Monkey": {},
-          "D:\\work_1\\Angry Monkey\\Lebanon - Documents\\General\\Nuget\\Coverbox": {},
+          "C:\\Users\\Hiba Al Ghosh\\Angry Monkey\\Lebanon - Documents\\General\\Nuget": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
