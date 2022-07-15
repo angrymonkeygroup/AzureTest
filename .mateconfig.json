@@ -1,0 +1,9 @@
+{
+	
+	"files": [
+		{
+			"output": "wwwroot/css/site.css",
+			"input": "src/css/ADB2C.less"
+		}
+	]
+}

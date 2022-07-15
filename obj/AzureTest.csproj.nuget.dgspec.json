@@ -54,6 +54,22 @@
               "target": "Package",
               "version": "[6.0.7, )"
             },
+            "Microsoft.Azure.Cosmos": {
+              "target": "Package",
+              "version": "[3.29.0, )"
+            },
+            "Microsoft.Graph": {
+              "target": "Package",
+              "version": "[4.34.0, )"
+            },
+            "Microsoft.Graph.Auth": {
+              "target": "Package",
+              "version": "[1.0.0-preview.6, )"
+            },
+            "Microsoft.Identity.Client": {
+              "target": "Package",
+              "version": "[4.44.0, )"
+            },
             "Microsoft.Identity.Web": {
               "target": "Package",
               "version": "[1.24.1, )"

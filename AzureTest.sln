@@ -5,6 +5,10 @@ VisualStudioVersion = 17.2.32616.157
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureTest", "AzureTest.csproj", "{7441B987-3FED-4D0B-BD18-E88B9CC25376}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{413ACE5A-5E8E-41A8-BB35-3D5DA34C3F6C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureTest.Client", "..\AzureTest.Client\AzureTest.Client.csproj", "{FA9F1717-FE54-414C-A22F-1CDDDACDE13B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +19,16 @@ Global
 		{7441B987-3FED-4D0B-BD18-E88B9CC25376}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7441B987-3FED-4D0B-BD18-E88B9CC25376}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7441B987-3FED-4D0B-BD18-E88B9CC25376}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA9F1717-FE54-414C-A22F-1CDDDACDE13B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA9F1717-FE54-414C-A22F-1CDDDACDE13B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA9F1717-FE54-414C-A22F-1CDDDACDE13B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA9F1717-FE54-414C-A22F-1CDDDACDE13B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FA9F1717-FE54-414C-A22F-1CDDDACDE13B} = {413ACE5A-5E8E-41A8-BB35-3D5DA34C3F6C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {121EE190-B10D-40FD-843B-336EDCEBD7B7}
