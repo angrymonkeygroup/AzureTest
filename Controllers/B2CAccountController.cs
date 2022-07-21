@@ -24,8 +24,7 @@ namespace AzureTest.Controllers
 			if (!User.Identity.IsAuthenticated)
 			{
 				string redirectUrl = Request.Headers["Referer"].ToString().Replace($"{Request.Scheme}://{Request.Host.ToUriComponent()}", string.Empty);
-
-				return Challenge(new AuthenticationProperties() { RedirectUri = $"/B2CAccount/Callback?redirectUrl={redirectUrl}" }, scheme);
+				return Challenge(new AuthenticationProperties() { RedirectUri = "https://localhost:7176/" }, scheme);
 			}
 
 			return Forbid();
@@ -56,21 +55,21 @@ namespace AzureTest.Controllers
 
 
 
-        [Route("EditProfile")]
-		public async Task<IActionResult> EditProfileAsync([FromRoute] string scheme)
-		{
-			scheme ??= OpenIdConnectDefaults.AuthenticationScheme;
-			var authenticated = await HttpContext.AuthenticateAsync(scheme).ConfigureAwait(false);
+  //      [Route("EditProfile")]
+		//public async Task<IActionResult> EditProfileAsync([FromRoute] string scheme)
+		//{
+		//	scheme ??= OpenIdConnectDefaults.AuthenticationScheme;
+		//	var authenticated = await HttpContext.AuthenticateAsync(scheme).ConfigureAwait(false);
 
-			if (!authenticated.Succeeded)
-				return Challenge(scheme);
+		//	if (!authenticated.Succeeded)
+		//		return Challenge(scheme);
 
-			string redirectUrl = Request.Headers["Referer"].ToString().Replace($"{Request.Scheme}://{Request.Host.ToUriComponent()}", string.Empty);
+		//	string redirectUrl = Request.Headers["Referer"].ToString().Replace($"{Request.Scheme}://{Request.Host.ToUriComponent()}", string.Empty);
 
-			var properties = new AuthenticationProperties { RedirectUri = redirectUrl, };
-			properties.Items[Microsoft.Identity.Web.Constants.Policy] = "B2C_1_EditProfile";
-			return Challenge(properties, scheme);
-		}
+		//	var properties = new AuthenticationProperties { RedirectUri = redirectUrl, };
+		//	properties.Items[Microsoft.Identity.Web.Constants.Policy] = "B2C_1_EditProfile";
+		//	return Challenge(properties, scheme);
+		//}
 
 		[Route("SignOut")]
 		public IActionResult SignOut([FromRoute] string scheme)
