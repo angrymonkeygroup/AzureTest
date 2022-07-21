@@ -26,9 +26,9 @@
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
                         </li>
                     </ul>
-                        <div class="header-user">
-                            <partial name="/Areas/Core/Views/Account/SignInSection.cshtml" />
-                        </div>
+                    <div class="header-user">
+                        <partial name="/Areas/Core/Views/Account/SignInSection.cshtml" />
+                    </div>
                 </div>
             </div>
         </nav>
@@ -47,6 +47,30 @@
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="https://accounts.google.com/gsi/client" async defer></script>
+
+    @* <script>
+    window.onGoogleLibraryLoad = () => {
+    google.accounts.id.initialize({
+    client_id: '864791965828-qb2346vueci05sfp4hmmv0g53lq06tl8.apps.googleusercontent.com',
+    cancel_on_tap_outside: false,
+    //callback: onOneTapSignedIn,
+    prompt_parent_id: "g_id_onload",
+    //intermediate_iframe_close_callback : close_callback1
+    });
+    google.accounts.id.prompt((notification) => {
+    if (notification.isNotDisplayed()) {
+    console.log(notification.getNotDisplayedReason());
+    } else if (notification.isSkippedMoment()) {
+    console.log(notification.getSkippedReason());
+    } else if (notification.isDismissedMoment()) {
+    console.log(notification.getDismissedReason());
+    } else {
+
+    }
+    });
+    }
+    </script>*@
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>
