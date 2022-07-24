@@ -1,0 +1,56 @@
+﻿@using System.Security.Claims
+@using System.Net
+@{
+    bool isAuthenticated = User.Identity.IsAuthenticated;
+}
+
+<div class="navigation-item account@(isAuthenticated ? " _user" : string.Empty)">
+    @if (isAuthenticated)
+    {
+        var identity = User.Identity as ClaimsIdentity; // Azure AD V2 endpoint specific
+
+        string objectId = identity.Claims.FirstOrDefault(c =>
+        c.Type == "http://schemas.microsoft.com/identity/claims/objectidentifier" ||
+        c.Type == "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier")
+        .Value;
+
+        string displayName = User.Identity.Name;
+        bool imageExists = false;
+
+        try
+        {
+            objectId = objectId.Replace("-", "");
+            objectId = objectId.TrimStart('0');
+
+            string imageUrl = $"{"https"}://storage.live.com/users/0x{objectId}/myprofile/expressionprofile/profilephoto:Win8Static,UserTileMedium,UserTileStatic/MeControlXXLUserTile?ck=1&ex=24";
+
+            HttpWebRequest request = (HttpWebRequest)HttpWebRequest.Create(imageUrl);
+            request.Method = "HEAD";
+
+            try
+            {
+                request.GetResponse();
+                imageExists = true;
+            }
+            catch
+            {
+                imageExists = false;
+            }
+
+            if (imageExists)
+            {
+                <img class="account-picture" src="@imageUrl" title="@displayName" />
+            }
+        }
+        catch { }
+
+        if (!imageExists)
+        {
+            <span class="account-name">@displayName</span>
+        }
+    }
+    else
+    {
+        <a class="navigation-item account-signin" href="~/B2CAccount/SignIn" rel="nofollow"><span>Sign in</span></a>
+    }
+</div>

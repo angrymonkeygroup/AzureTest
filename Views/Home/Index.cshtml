@@ -1,8 +1,14 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
 }
+     hahahaaaaaaaaaaaa
+     @if(! User.Identity.IsAuthenticated){
+           <div id="g_id_onload"
+                 data-client_id="864791965828-qb2346vueci05sfp4hmmv0g53lq06tl8.apps.googleusercontent.com"
+                 data-context="signin"
+                 data-login_uri="https://localhost:7176/B2CAccount/SignIn"
+                 data-auto_select="false"
+                 data-close_on_tap_outside="false">
+            </div>
+     }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
